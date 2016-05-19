@@ -208,11 +208,11 @@ class KerberosClientImpl extends UnicastRemoteObject implements InterfaceKerbero
             String erro = "Não foi possível completar a solicitação!";
             System.out.println(erro);
             //JOptionPane.showMessageDialog(null, erro);
-            System.exit(0);
+            //System.exit(0);
         }else{
             System.out.println(errorCode);
             //JOptionPane.showMessageDialog(null, errorCode);
-            System.exit(0);
+            //System.exit(0);
         }
         
     }

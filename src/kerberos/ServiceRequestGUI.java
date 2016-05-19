@@ -103,7 +103,6 @@ public class ServiceRequestGUI extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void confirmReqActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_confirmReqActionPerformed
-        this.setVisible(false);
         try {
             kerbCli.initServiceRequest(clientReq.getSelectedItem().toString(), serviceReq.getSelectedItem().toString());
         } catch (RemoteException ex) {
